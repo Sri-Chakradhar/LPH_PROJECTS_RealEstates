@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.back-image{
+    background-image: url(../img/imageforbar.png);
+}
+
+.searchsize{
+    width: 256px;
+}
+
+.place{
+    @apply hover:shadow-lg rounded-t-none flex flex-col items-center py-12 rounded-3xl hover:transform hover:bg-slate-200 hover:scale-110 transition ease-in duration-500 hover:border-t-blue-400 hover:border-4 
+}
