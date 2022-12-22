@@ -14,5 +14,5 @@
 }
 
 .place{
-    @apply hover:shadow-lg rounded-t-none flex flex-col items-center py-12 rounded-3xl hover:transform hover:bg-slate-200 hover:scale-110 transition ease-in duration-500 hover:border-t-blue-400 hover:border-4 
+    @apply hover:shadow-lg rounded-t-none flex flex-col items-center md:py-12 rounded-3xl hover:transform hover:bg-slate-200 hover:scale-110 transition ease-in duration-500 hover:border-t-blue-400 hover:border-4 
 }
