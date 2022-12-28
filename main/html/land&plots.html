@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,84 +8,181 @@
     <title> LPH Projects </title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
+
 <body>
-    <!-- navigation bar starts here -->
-<div>
-    <nav class="bg-blue-900 text-gray-200">
-        <div class="flex justify-between p-4 items-center">
-            <div class="flex items-center justify-between">
-                <div>
-                    <img src="../img/LPH Projects.png" class="px-3 w-20 rounded-2xl" alt="" srcset="">
+    <section>
+        <!-- navigation bar starts here -->
+    <div>
+        <nav class="bg-blue-900 text-gray-200">
+            <div class="flex justify-between items-center">
+                <div class=" flex justify-between justify p-4 items-center align-middle text-base">
+                    <div class="flex items-center align-middle">
+                        <div>
+                            <img src="../img/LPH Projects.png" class="px-3 w-20 rounded-2xl" alt="" srcset="">
+                        </div>
+                        <div>
+                            <header class="uppercase font-extrabold font-lato md:text-4xl text-2xl text-xxl-start"> <a
+                                    href="#">LPH
+                                    Projects</a>
+                            </header>
+                        </div>
+                    </div>
+                    <div
+                        class="hidden md:flex align-items-end space-x-5 pl-10 justify-end text-sm-end md:items-center cursor-pointer">
+                        <div class="flex items-center mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                            </svg>
+                            <a href="land&plots.html" class="font-lato font-bold m-1">Lands & Plots</a>
+                        </div>
+                        <div class="flex items-center mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205l3 1m1.5.5l-1.5-.5M6.75 7.364V3h-3v18m3-13.636l10.5-3.819" />
+                            </svg>
+                            <a href="house&apartmaents.html" class="font-lato font-bold m-1">Houses & Apartments</a>
+                        </div>
+                        <div class="flex items-center mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+                            </svg>
+                            <a href="" class="font-lato font-bold m-1">About Us</a>
+                        </div>
+                        <div class="flex items-center mx-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            <a href="login.html" class="font-lato font-bold m-1">Register/Login</a>
+                        </div>
+                    </div>
                 </div>
                 <div>
-                    <header class="uppercase font-bold font-lato text-4xl text-xxl-start"> <a href="#">LPH Projects</a></header>
+                    <button id="dropdownDefault" data-dropdown-toggle="dropdown"
+                            class=" bg-blue-700 md:hidden group hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                            type="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="hover:transform hover:rotate-180"
+                                width="32px" height="32">
+                                <path
+                                    style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none"
+                                    d="M3.03 13a1 1 0 0 0-.737.293 1 1 0 0 0 0 1.414l13 13a1 1 0 0 0 1.414 0l13-13a1 1 0 0 0 0-1.414 1 1 0 0 0-1.414 0L16 25.586 3.707 13.293A1 1 0 0 0 3.029 13z"
+                                    color="#000" />
+                                <path
+                                    style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;font-variation-settings:normal;inline-size:0;isolation:auto;mix-blend-mode:normal;shape-margin:0;shape-padding:0;text-decoration-color:#000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none"
+                                    d="M5.03 4a1 1 0 0 0-.737.293 1 1 0 0 0 0 1.414l11 11a1 1 0 0 0 1.414 0l11-11a1 1 0 0 0 0-1.414 1 1 0 0 0-1.414 0L16 14.586 5.707 4.293A1 1 0 0 0 5.029 4z"
+                                    color="#000" />
+                            </svg>
+                            <div
+                                class="absolute top-0  -right-full w-3/6 opacity-0 rounded-2xl group-focus:right-0 group-focus:opacity-100 bg-blue-500 transition-all duration-300">
+                                <ul class="flex flex-col items-center text-base cursor-pointer">
+                                    <li
+                                        class="hover:bg-blue-400 py-6 px-4 w-full border-b-2 border-opacity-50 overflow-hidden hover:border-white">
+                                        <a href="land&plots.html" class="font-lato font-bold m-1">Lands & Plots</a></li>
+                                    <li
+                                        class="hover:bg-blue-400 py-6 px-4 w-full border-b-2 overflow-hidden hover:border-white">
+                                        <a href="house&apartmaents.html" class="font-lato font-bold m-1">Houses & Apartments</a></li>
+                                    <li
+                                        class="hover:bg-blue-400 py-6 px-4 w-full border-b-2 overflow-hidden hover:border-white">
+                                        <a href="" class="font-lato font-bold m-1">About Us</a></li>
+                                    <li class="hover:bg-blue-400 py-6 px-4 w-full"><a href="login.html" class="font-lato font-bold m-1">Register/Login</a></li>
+                                </ul>
+
+                            </div>
+                        </button>
                 </div>
             </div>
-            <div class="flex align-items-end text-sm-end justify-between items-center">
-                <div class="flex items-center mx-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                      </svg>                              
-                    <a href="" class="font-lato font-bold m-1">Lands & Plots</a>
+        </nav>
+    </div>
+    <!-- navigation bar ends here -->
+    <!-- Follow us -->
+    <div
+        class="bg-gray-700 shadow-gray-900 shadow-inner py-20 text-sm font-lato font-medium text-gray-500/40 text-gray-400">
+        <div class="flex flex-col items-center">
+            <div class="grid grid-cols-4 gap-16 pl-24">
+                <div class="flex">
+                    <?xml version="1.0" ?><svg enable-background="new 0 0 32 32" class="w-7 opacity-50" version="1.1"
+                        viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Flat_copy">
+                            <g>
+                                <path
+                                    d="M16,0C7.163,0,0,7.163,0,16c0,8.836,7.163,16,16,16s16-7.164,16-16C32,7.163,24.837,0,16,0z"
+                                    fill="#333333" />
+                            </g>
+                            <path
+                                d="M18.226,8.886c-1.59,0.579-2.595,2.071-2.481,3.704l0.038,0.63l-0.636-0.077   c-2.315-0.296-4.338-1.299-6.056-2.984l-0.84-0.836L8.036,9.94c-0.458,1.376-0.165,2.83,0.789,3.808   c0.509,0.54,0.394,0.617-0.483,0.296c-0.305-0.103-0.573-0.18-0.598-0.141c-0.089,0.09,0.216,1.26,0.458,1.724   c0.331,0.644,1.005,1.273,1.743,1.647l0.624,0.296L9.83,17.581c-0.712,0-0.738,0.013-0.661,0.284   c0.254,0.836,1.259,1.724,2.379,2.11l0.789,0.27l-0.687,0.412c-1.018,0.593-2.214,0.927-3.41,0.951   c-0.573,0.013-1.044,0.064-1.044,0.103c0,0.128,1.553,0.848,2.455,1.132c2.71,0.836,5.929,0.475,8.346-0.952   c1.718-1.016,3.435-3.036,4.237-4.992c0.433-1.041,0.865-2.945,0.865-3.858c0-0.592,0.038-0.669,0.75-1.376   c0.42-0.412,0.814-0.862,0.891-0.99c0.128-0.245,0.114-0.245-0.534-0.026c-1.081,0.386-1.234,0.335-0.699-0.244   c0.394-0.412,0.865-1.158,0.865-1.376c0-0.038-0.191,0.026-0.407,0.141c-0.229,0.129-0.738,0.322-1.12,0.437l-0.687,0.219   L21.535,9.4c-0.344-0.231-0.826-0.489-1.081-0.566C19.804,8.654,18.812,8.68,18.226,8.886z"
+                                fill="#FFFFFF" />
+                        </g>
+                    </svg>
+                    <h1 class="pl-2">Twitter</h1>
                 </div>
-                <div class="flex items-center mx-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205l3 1m1.5.5l-1.5-.5M6.75 7.364V3h-3v18m3-13.636l10.5-3.819" />
-                      </svg>                              
-                    <a href="" class="font-lato font-bold m-1">Houses & Apartments</a>
+                <div class="flex">
+                    <?xml version="1.0" ?><svg enable-background="new 0 0 32 32" class="w-7 opacity-50" version="1.1"
+                        viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Flat_copy">
+                            <g>
+                                <path
+                                    d="M16,0C7.163,0,0,7.163,0,16c0,8.836,7.163,16,16,16s16-7.164,16-16C32,7.163,24.837,0,16,0z"
+                                    fill="#333333" />
+                            </g>
+                            <path
+                                d="M22.057,7.93H9.943c-1.14,0-2.019,0.879-2.019,2.019v12.113c0,1.14,0.879,2.019,2.019,2.019h12.113   c1.14,0,2.019-0.879,2.019-2.019V9.949C24.076,8.808,23.196,7.93,22.057,7.93z M16.012,12.833c1.791,0,3.243,1.407,3.243,3.142   c0,1.735-1.452,3.142-3.243,3.142c-1.79,0-3.242-1.408-3.242-3.142C12.77,14.239,14.222,12.833,16.012,12.833z M22.057,21.557   c0,0.354-0.151,0.505-0.505,0.505H10.448c-0.353,0-0.505-0.151-0.505-0.505v-7.066l1.258,0.274   c-0.135,0.439-0.208,0.903-0.208,1.385c0,2.684,2.248,4.863,5.018,4.863c2.772,0,5.019-2.178,5.019-4.863   c0-0.482-0.073-0.946-0.208-1.385l1.234-0.274V21.557z M22.057,12.472c0,0.279-0.226,0.505-0.505,0.505h-2.019   c-0.279,0-0.505-0.226-0.505-0.505v-2.019c0-0.279,0.226-0.505,0.505-0.505h2.019c0.279,0,0.505,0.226,0.505,0.505V12.472z"
+                                fill="#FFFFFF" />
+                        </g>
+                    </svg>
+                    <h1 class="pl-2">Instagram</h1>
                 </div>
-                <div class="flex items-center mx-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
-                      </svg>                              
-                    <a href="" class="font-lato font-bold m-1">About Us</a> 
+                <div class="flex">
+                    <?xml version="1.0" ?><svg enable-background="new 0 0 32 32" class="w-7 opacity-50" version="1.1"
+                        viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Flat_copy">
+                            <g>
+                                <path
+                                    d="M16,0C7.163,0,0,7.163,0,16c0,8.836,7.163,16,16,16s16-7.164,16-16C32,7.163,24.837,0,16,0z"
+                                    fill="#333333" />
+                            </g>
+                            <path
+                                d="M13.69,24.903h3.679v-8.904h2.454l0.325-3.068h-2.779l0.004-1.536c0-0.8,0.076-1.229,1.224-1.229h1.534   V7.097h-2.455c-2.949,0-3.986,1.489-3.986,3.992v1.842h-1.838v3.069h1.838V24.903z"
+                                fill="#FFFFFF" />
+                        </g>
+                    </svg>
+                    <h1 class="pl-2">Facebook</h1>
                 </div>
-                <div class="flex items-center mx-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
-                      </svg>                              
-                    <a href="" class="font-lato font-bold m-1">Register/Login</a>
+                <div class="flex">
+                    <?xml version="1.0" ?><svg data-name="Layer 1" id="Layer_1" class="w-7 opacity-50"
+                        viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                        <title />
+                        <path
+                            d="M256,0C114.615,0,0,114.615,0,256S114.615,512,256,512,512,397.385,512,256,397.385,0,256,0ZM389.059,161.936,343.591,379a16.007,16.007,0,0,1-25.177,9.593l-66.136-48.861-40.068,37.8a5.429,5.429,0,0,1-7.74-.294l-.861-.946,6.962-67.375L336.055,194.266a3.358,3.358,0,0,0-4.061-5.317L171.515,290.519,102.4,267.307a9.393,9.393,0,0,1-.32-17.694L372.5,147.744A12.441,12.441,0,0,1,389.059,161.936Z" />
+                        </svg>
+                    <h1 class="pl-2">Telegram</h1>
                 </div>
             </div>
-        </div>
-    </nav>
-</div>
-<!-- navigation bar ends here -->
-<!-- Follow us -->
-<div class="bg-gray-700 shadow-gray-900 shadow-inner py-20 text-sm font-lato font-medium text-gray-500/40 text-gray-400">
-    <div class="flex flex-col items-center">
-        <div class="grid grid-cols-4 gap-16 pl-24">
-            <div class="flex">
-                <?xml version="1.0" ?><svg enable-background="new 0 0 32 32" class="w-7 opacity-50" version="1.1" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Flat_copy"><g><path d="M16,0C7.163,0,0,7.163,0,16c0,8.836,7.163,16,16,16s16-7.164,16-16C32,7.163,24.837,0,16,0z" fill="#333333"/></g><path d="M18.226,8.886c-1.59,0.579-2.595,2.071-2.481,3.704l0.038,0.63l-0.636-0.077   c-2.315-0.296-4.338-1.299-6.056-2.984l-0.84-0.836L8.036,9.94c-0.458,1.376-0.165,2.83,0.789,3.808   c0.509,0.54,0.394,0.617-0.483,0.296c-0.305-0.103-0.573-0.18-0.598-0.141c-0.089,0.09,0.216,1.26,0.458,1.724   c0.331,0.644,1.005,1.273,1.743,1.647l0.624,0.296L9.83,17.581c-0.712,0-0.738,0.013-0.661,0.284   c0.254,0.836,1.259,1.724,2.379,2.11l0.789,0.27l-0.687,0.412c-1.018,0.593-2.214,0.927-3.41,0.951   c-0.573,0.013-1.044,0.064-1.044,0.103c0,0.128,1.553,0.848,2.455,1.132c2.71,0.836,5.929,0.475,8.346-0.952   c1.718-1.016,3.435-3.036,4.237-4.992c0.433-1.041,0.865-2.945,0.865-3.858c0-0.592,0.038-0.669,0.75-1.376   c0.42-0.412,0.814-0.862,0.891-0.99c0.128-0.245,0.114-0.245-0.534-0.026c-1.081,0.386-1.234,0.335-0.699-0.244   c0.394-0.412,0.865-1.158,0.865-1.376c0-0.038-0.191,0.026-0.407,0.141c-0.229,0.129-0.738,0.322-1.12,0.437l-0.687,0.219   L21.535,9.4c-0.344-0.231-0.826-0.489-1.081-0.566C19.804,8.654,18.812,8.68,18.226,8.886z" fill="#FFFFFF"/></g></svg>
-                <h1 class="pl-2">Twitter</h1>
+            <div class="flex flex-col items-center pt-12">
+                <div class="py-3">
+                    <h1>Ph.no : +91-984865222</h1>
+                </div>
+                <div class="py-2">
+                    <h1>Email : addagadahariprasad1975@gmail.com</h1>
+                </div>
             </div>
-            <div class="flex">
-                <?xml version="1.0" ?><svg enable-background="new 0 0 32 32" class="w-7 opacity-50" version="1.1" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Flat_copy"><g><path d="M16,0C7.163,0,0,7.163,0,16c0,8.836,7.163,16,16,16s16-7.164,16-16C32,7.163,24.837,0,16,0z" fill="#333333"/></g><path d="M22.057,7.93H9.943c-1.14,0-2.019,0.879-2.019,2.019v12.113c0,1.14,0.879,2.019,2.019,2.019h12.113   c1.14,0,2.019-0.879,2.019-2.019V9.949C24.076,8.808,23.196,7.93,22.057,7.93z M16.012,12.833c1.791,0,3.243,1.407,3.243,3.142   c0,1.735-1.452,3.142-3.243,3.142c-1.79,0-3.242-1.408-3.242-3.142C12.77,14.239,14.222,12.833,16.012,12.833z M22.057,21.557   c0,0.354-0.151,0.505-0.505,0.505H10.448c-0.353,0-0.505-0.151-0.505-0.505v-7.066l1.258,0.274   c-0.135,0.439-0.208,0.903-0.208,1.385c0,2.684,2.248,4.863,5.018,4.863c2.772,0,5.019-2.178,5.019-4.863   c0-0.482-0.073-0.946-0.208-1.385l1.234-0.274V21.557z M22.057,12.472c0,0.279-0.226,0.505-0.505,0.505h-2.019   c-0.279,0-0.505-0.226-0.505-0.505v-2.019c0-0.279,0.226-0.505,0.505-0.505h2.019c0.279,0,0.505,0.226,0.505,0.505V12.472z" fill="#FFFFFF"/></g></svg>
-                <h1 class="pl-2">Instagram</h1>
+            <div class="pt-12 text-gray-400/40">
+                <h1>@2022</h1>
             </div>
-            <div class="flex">
-                <?xml version="1.0" ?><svg enable-background="new 0 0 32 32" class="w-7 opacity-50" version="1.1" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Flat_copy"><g><path d="M16,0C7.163,0,0,7.163,0,16c0,8.836,7.163,16,16,16s16-7.164,16-16C32,7.163,24.837,0,16,0z" fill="#333333"/></g><path d="M13.69,24.903h3.679v-8.904h2.454l0.325-3.068h-2.779l0.004-1.536c0-0.8,0.076-1.229,1.224-1.229h1.534   V7.097h-2.455c-2.949,0-3.986,1.489-3.986,3.992v1.842h-1.838v3.069h1.838V24.903z" fill="#FFFFFF"/></g></svg>
-                <h1 class="pl-2">Facebook</h1>
-            </div>
-            <div class="flex">
-                <?xml version="1.0" ?><svg data-name="Layer 1" id="Layer_1" class="w-7 opacity-50" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><title/><path d="M256,0C114.615,0,0,114.615,0,256S114.615,512,256,512,512,397.385,512,256,397.385,0,256,0ZM389.059,161.936,343.591,379a16.007,16.007,0,0,1-25.177,9.593l-66.136-48.861-40.068,37.8a5.429,5.429,0,0,1-7.74-.294l-.861-.946,6.962-67.375L336.055,194.266a3.358,3.358,0,0,0-4.061-5.317L171.515,290.519,102.4,267.307a9.393,9.393,0,0,1-.32-17.694L372.5,147.744A12.441,12.441,0,0,1,389.059,161.936Z"/></svg>
-                <h1 class="pl-2">Telegram</h1>
-            </div>
-        </div>
-        <div class="flex flex-col items-center pt-12">
-            <div class="py-3">
-                <h1>Ph.no : +91-984865222</h1>
-            </div>
-            <div class="py-2">
-                <h1>Email : addagadahariprasad1975@gmail.com</h1>
-            </div>
-        </div>
-        <div class="pt-12 text-gray-400/40">
-            <h1>@2022</h1>
         </div>
     </div>
-</div>
-<!-- Follow us ends -->
+    <!-- Follow us ends -->
+    </section>
 </body>
+
 </html>
